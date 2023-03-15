@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="95b8257a-37aa-42de-90ed-4bc4c322cc27"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Ran_jenkins1">
+	</codegen>
+	<variables>
+		<var
+		id="f58e17d7-94e3-4599-8390-b4bde6a86b56"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\Kishore\Desktop\noc smart\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="71c2ad82-40c7-408b-a773-840e8bd3f0b0"
+	name="Ran_jenkins1Repository"
+	relativepath="Ran_jenkins1Repository.rxrep">
+		<codegen
+		classname="Ran_jenkins1Repository"
+		namespace="Ran_jenkins1">
+		</codegen>
+		<rootfolder
+		id="85298d90-cc7e-4533-88bc-6f866db0f0b1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

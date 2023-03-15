@@ -1,0 +1,62 @@
+﻿<repository
+id="71c2ad82-40c7-408b-a773-840e8bd3f0b0"
+name="Ran_jenkins1Repository">
+	<codegen
+	classname="Ran_jenkins1Repository"
+	namespace="Ran_jenkins1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="85298d90-cc7e-4533-88bc-6f866db0f0b1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,control,nativewindow"
+		capname="form"
+		id="712a03ef-61e6-4f8f-b42c-19bf03a273dc"
+		isrooted="True"
+		name="RxMainFrame"
+		refpath="/form[@automationid='RxMainFrame']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="ff076da4-12da-4d5f-82c4-7d28101b5db1"
+			name="EnterYourName"
+			refimgid="500e4fb9-8f5c-4b92-91f6-1880b5b6a93b"
+			refpath="/form[@automationid='RxMainFrame']/tabpagelist/tabpage[@title='Introduction' and @automationid='RxTabIntroduction']/text[@automationid='txtUserName']/text[@accessiblename='Enter your name']"
+			robustPath="/form[@automationid='RxMainFrame']//text[@accessiblename='Enter your name']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/tabpage[@automationid='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="258c6930-9ea5-414d-a369-17cb41d5b72b"
+			name="Close"
+			refimgid="6c469c77-1256-469f-86e9-a62b5ad4c8e2"
+			refpath="/form[@automationid='RxMainFrame']/titlebar/button[@accessiblename='Close']"
+			robustPath="/form[@automationid='RxMainFrame']/?/?/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@automationid='RxMainFrame']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@automationid='RxMainFrame']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
